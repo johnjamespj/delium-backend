@@ -3,6 +3,9 @@ name: Node.js CI
 on:
   pull_request:
     branches: [ main ]
+    
+  # enable manual trigger
+  workflow_dispatch:
 
 jobs:
   build:
